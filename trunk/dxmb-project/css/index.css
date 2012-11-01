@@ -18,7 +18,7 @@ table { border-collapse: collapse; border-spacing: 0pt; }
 
 html { font-size: 100.01%; width: 100%; margin: 0pt auto; }
 body { color: rgb(102, 102, 102); background: url('../images/bg.jpg') repeat-x scroll center top rgb(221, 238, 251); font-family: Tahoma,Geneva,sans-serif; font-size: 75%; line-height: 1.8em; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Droid Sans',Arial,"Times New Roman",Times,serif; font-weight: normal; line-height: 1.4em; margin-bottom: 0pt; color: rgb(102, 102, 102); }
+h1, h2, h3, h4, h5, h6 { font-family: 'Droid Sans',Arial,"Times New Roman",Times,serif; font-weight: normal; line-height: 1.5em; margin-bottom: 0pt; color: rgb(102, 102, 102); }
 h2 { font-size: 2.25em; }
 h3 { font-size: 1.75em; }
 h4 { font-size: 1.5em; }
