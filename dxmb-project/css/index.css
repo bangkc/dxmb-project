@@ -57,7 +57,7 @@ button:focus, input.button:focus, a.button:focus, input[type="submit"]:focus { b
 
 .moduletable p:last-child { margin-bottom: 0pt; }
 .col-module { position: relative; margin-bottom: 15px; }
-.col-module .col-module-suffix-, .col-module .col-module-suffix-style1, .col-module .col-module-suffix-style2 { padding: 10px; border: 1px solid rgb(187, 219, 239); }
+.col-module .col-module-suffix-, .col-module .col-module-suffix-style1, .col-module .col-module-suffix-style2 { padding: 10px;}
 .col-module-header { background-color: rgb(221, 237, 247); background-image: -moz-linear-gradient(rgb(235, 241, 247), rgb(221, 237, 247)); margin: -10px -10px 7px; border-bottom: 1px solid rgb(204, 227, 241); box-shadow: 0pt -1px 0pt rgb(255, 255, 255) inset; padding: 7px 10px 6px; }
 .col-module-header h3.mod-title { font-size: 1.3em; margin: 0pt; padding: 0pt; text-shadow: 1px 1px 1px rgb(255, 255, 255); color: rgb(0, 0, 0); }
 .col-module-header h3.mod-title span { color: rgb(0, 0, 0); text-shadow: none; font-family: Verdana,Geneva,sans-serif; display: block; font-size: 12px; line-height: 1.6em; margin-bottom: 0pt; margin-top: -3px; }
@@ -338,7 +338,7 @@ body { background-color: rgb(221, 238, 251); background-image: url('../images/bg
 .ip_featured_thumb, .blog-featured img, .blog img, .category-list .cat-children .category-desc img, .item-page img, .iceaccordion .ip_padding .ice_ip_thumb a > img, .iceaccordion .ip_padding .ice_ip_thumb > img, .ice-carousel .ip_padding .ice_ip_thumb a > img, .ice-carousel .ip_padding .ice_ip_thumb > img { background-color: rgb(234, 241, 247); border-color: rgb(198, 217, 233); }
 #search .inputbox { border-color: rgb(199, 226, 242); }
 #search .inputbox:hover, #search .inputbox:focus { border-color: rgb(157, 204, 232); }
-.col-module .col-module-suffix-, .col-module .col-module-suffix-style1, .col-module .col-module-suffix-style2 { border-color: rgb(187, 219, 239); }
+.col-module .col-module-suffix-, .col-module .col-module-suffix-style1, .col-module .col-module-suffix-style2 { }
 .col-module-header {background-color: #F5821F;
     background-image: -moz-linear-gradient(#F5821F, #F29243);
     border-bottom-color: #F29243;}
