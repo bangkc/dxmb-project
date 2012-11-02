@@ -299,7 +299,7 @@ div#subMenusContainer ul.icesubMenu li div.iceCols:nth-child(n+2) li { padding-l
 div#subMenusContainer a.iceMenuTitle, div#subMenusContainer span.separator { height: auto; padding: 4px 0pt 8px 16px; margin: 0pt 0pt 1px; background: url('../images/point.png') no-repeat scroll 0% 45% transparent; border-bottom: 1px solid rgba(0, 0, 0, 0.25); border-right: medium none; box-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.2); }
 div#subMenusContainer span.icemega_title { font-family: 'Goudy Bookletter 1911',Arial,"Times New Roman",Times,serif; text-transform: none; font-size: 1.2em; line-height: 1.2em; letter-spacing: normal; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
 div#subMenusContainer ul.icesubMenu li div.iceCols li.parent { background: url('../images/arrow.png') no-repeat scroll 94% 45% transparent; }
-#subMenusContainer a.iceMenuTitle:hover, #subMenusContainer a.iceMenuTitle:focus, #icemegamenu a.mainMenuParentBtnFocused, #subMenusContainer a.subMenuParentBtnFocused, #icemegamenu li a.iceMenuTitle:hover, #icemegamenu li a.iceMenuTitle:hover span, #icemegamenu li a.iceMenuTitle:focus span, #icemegamenu li a.iceMenuTitle:focus { color: rgb(0, 91, 170) ! important; }
+#subMenusContainer a.iceMenuTitle:hover, #subMenusContainer a.iceMenuTitle:focus, #icemegamenu a.mainMenuParentBtnFocused, #subMenusContainer a.subMenuParentBtnFocused, #icemegamenu li a.iceMenuTitle:hover, #icemegamenu li a.iceMenuTitle:hover span, #icemegamenu li a.iceMenuTitle:focus span, #icemegamenu li a.iceMenuTitle:focus { color: rgb(255, 255, 255) ! important; }
 .smOW { display: none; position: absolute; overflow: hidden; padding: 0pt 1px; margin: 0pt; }
 #icemegamenu li:hover a:focus { margin-left: 0pt; }
 .icesubMenu { position: absolute; }
