@@ -1,116 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en-gb" dir="ltr" xml:lang="en-gb" xmlns="http://www.w3.org/1999/xhtml"
-slick-uniqueid="3">
+<html lang="en-gb" dir="ltr" xml:lang="en-gb" xmlns="http://www.w3.org/1999/xhtml">
+    <?php include 'head.php';?>
     
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
-        <meta name="generator" content="Joomla! - Open Source Content Management">
-        <title>Niềm tin việt -Bất động sản online</title>
-        <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-        <script src="js/mootools-core.js" type="text/javascript"></script>
-        <!--<script src="js/core.js" type="text/javascript">
-</script>
-
-<script src="js/caption.js" type="text/javascript">
-</script>
-
-<script src="js/mootools-more.js" type="text/javascript">
-</script>
--->
-        <script src="js/script_16.js" type="text/javascript"></script>
-        <!--<script src="js/script_16_001.js" type="text/javascript">
-</script>
-
-<script src="js/icemegamenu.js" type="text/javascript">
-</script>
--->
-        <script type="text/javascript">
-            window.addEvent('load', function () {
-                new JCaption('img.caption');
-            });
-
-            function checkSearchMod() {
-                if (document.ip_searchmod.search.value == "Keyword...") {
-                    document.ip_searchmod.search.value = "";
-                    document.ip_searchmod.submit();
-                }
-            }
-
-            function isNumberKey(evt) {
-                var charCode = (evt.which) ? evt.which : event.keyCode
-                if (charCode > 31 && (charCode < 48 || charCode > 57)) return false;
-                return true;
-            }
-            window.addEvent("load", function () {
-                if ($('item-537') != null) $('item-537').setStyle('display', 'none')
-            });
-            window.addEvent("load", function () {
-                if ($('item-541') != null) $('item-541').setStyle('display', 'none')
-            });
-            window.addEvent("load", function () {
-                if ($('item-542') != null) $('item-542').setStyle('display', 'none')
-            });
-
-            function checkSearchIceMod() {
-                var search_keyword = $("search_keyword").value;
-                $("ice_street").value = search_keyword;
-                $("ice_city").value = search_keyword;
-                $("ice_postcode").value = search_keyword;
-                $("ice_locstate").value = search_keyword;
-                $("ice_search").value = search_keyword;
-                if (document.ip_searchmod.search_keyword.value == "Address or City or ZIP...") {
-                    document.ip_searchmod.search_keyword.value = "";
-                    document.ip_searchmod.submit();
-                }
-            }
-
-            function isNumberKey(evt) {
-                var charCode = (evt.which) ? evt.which : event.keyCode
-                if (charCode > 31 && (charCode < 48 || charCode > 57)) return false;
-                return true;
-            }
-        </script>
-        <!-- Google Fonts -->
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" type="text/css" href="css/ie.css" />
-        <![endif]-->
-        <!--[if lte IE 9]>
-            <style type="text/css" media="screen">
-                #left-column .col-module h3.mod-title span:after {
-                    border-width: 0.82em;
-            </style>
-        <![endif]-->
-        <link rel="stylesheet" type="text/css" href="css/index.css" media="all">
-    </head>
-    
-    <body class="">
+    <body>
         <div id="site_wrapper">
             <!-- Accessibility -->
-            <div id="topbar">
-                <div class="wrapper">
-                    <div id="topmenu">
-                        <ul class="menu">
-                            <li class="item-505"><a href="dang-nhap.html">Đăng nhập</a></li>
-                            <li class="item-549"><a href="dang-ky.html">Đăng ký</a></li>
-                            <li class="item-506"><a href="gioi-thieu.html">Giới thiệu</a></li>
-                            <li class="item-506"><a href="tin-tuc.html">Tin tức</a></li>
-                            <li class="item-506"><a href="lien-he.html">Liên hệ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- TopBar -->
-            <!-- Header -->
-            <div id="header" class="clearfix">
-                <div class="wrapper">
-                    <div id="logo">
-                        <p>
-                        	<a href="#"><img src="images/banner_dxmb.png" style="position:relative;top:30px;left:20px;margin-right: 40px;" alt="IT Property - Real Estate Joomla Template"></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <?php include 'modules/header.php';?>
             <!-- Header -->
             <!-- Content -->
             <div id="content">
@@ -118,62 +13,7 @@ slick-uniqueid="3">
                     
                     <!-- Content Bar -->
                     <div id="content_bar">
-                        <!-- Main Nav -->
-                        <div id="nav-wrapper" style="margin:0;max-width:none;width:100%;color:#494949;">
-                            <div class="icemegamenu">
-                                <ul id="icemegamenu">
-                                    <li id="iceMenu_435" class="iceMenuLiLevel_1">
-                                    	<a href="index.html" class="active iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Trang chủ</span></a>
-                                    </li>
-                                    <li id="iceMenu_294" class="iceMenuLiLevel_1 parent">
-										<a href="/index.php/en/features" class="iceMenuTitle mainMenuParentBtn mainParentBtn">
-                                        	<span class="icemega_title">Dự án BĐS</span>
-                                            <span class="icemega_desc">Hot!</span>
-                                        </a>
-
-                                    </li>
-                                    <li id="iceMenu_480" class="iceMenuLiLevel_1 parent">
-                                        <a href="/index.php/en/extensions" class="iceMenuTitle mainMenuParentBtn mainParentBtn">
-                                            <span class="icemega_title">Sàn BĐS</span>
-                                            <span class="icemega_desc">Hot!</span>
-                                        </a>
-
-                                    </li>
-                                    <li id="iceMenu_647" class="iceMenuLiLevel_1">
-                                        <a href="/index.php/en/iproperty" class=" iceMenuTitle">
-                                            <span class="icemega_title icemega_nosubtitle">Thương mại</span>
-                                        </a>
-
-                                    </li>
-                                    <li id="iceMenu_647" class="iceMenuLiLevel_1">
-                                        <a href="/index.php/en/iproperty" class=" iceMenuTitle">
-                                            <span class="icemega_title icemega_nosubtitle">Cẩm nang BĐS</span>
-                                        </a>
-
-                                    </li>
-                                    <li id="iceMenu_647" class="iceMenuLiLevel_1">
-                                        <a href="/index.php/en/iproperty" class=" iceMenuTitle">
-                                            <span class="icemega_title icemega_nosubtitle">Rao vặt</span>
-                                            <span class="icemega_desc">Free!</span>
-                                        </a>
-
-                                    </li>
-                                </ul>
-                            </div>
-                            <script type="text/javascript">
-                                window.addEvent('domready', function () {
-                                    if (document.getElementById('icemegamenu') != null) var myMenu = new MenuMatic({
-                                        id: 'icemegamenu',
-                                        effect: 'slide & fade',
-                                        duration: 400,
-                                        physics: Fx.Transitions.Expo.easeOut,
-                                        hideDelay: 1000,
-                                        opacity: 100
-                                    });
-                                });
-                            </script>
-                        </div>
-                        <!-- Main Nav -->
+                        
                         <!-- BreadCrumbs -->
                     </div>
                     <!-- Left Column -->

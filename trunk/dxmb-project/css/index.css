@@ -17,7 +17,7 @@ table { border-collapse: collapse; border-spacing: 0pt; }
 /* ::::: http://cdn.demo.icetheme.com/it_property/templates/it_property/css/typography.css ::::: */
 
 html { font-size: 100.01%; width: 100%; margin: 0pt auto; }
-body { color: rgb(102, 102, 102); background: url('../images/bg.jpg') repeat-x scroll center top rgb(221, 238, 251); font-family: Tahoma,Geneva,sans-serif; font-size: 75%; line-height: 1.8em; }
+body { color: rgb(102, 102, 102); background: url('../images/body-bg.png') repeat scroll center top rgb(255, 255, 255); font-family: Tahoma,Geneva,sans-serif; font-size: 75%; line-height: 1.8em; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Droid Sans',Arial,"Times New Roman",Times,serif; font-weight: normal; line-height: 1.5em; margin-bottom: 0pt; color: rgb(102, 102, 102); }
 h2 { font-size: 2.25em; }
 h3 { font-size: 1.75em; }
@@ -32,8 +32,7 @@ em, dfn { font-style: italic; }
 sup, sub { line-height: 0; }
 .floatleft { float: left; }
 li ul, li ol { margin: 0pt; }
-ul, ol { margin: 0pt 2em 1.5em 0pt; padding-left: 2.5em; }
-li { padding-top: 0.2em; padding-bottom: 0.2em; }
+ul, ol { margin: 0pt 2em 1.5em 0pt; padding-left: 1.2em; }
 ul { list-style-type: disc; }
 ol { list-style-type: decimal; }
 dl { margin: 0pt 0pt 2em; }
@@ -103,11 +102,17 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 #language ul li a:hover { opacity: 1; -moz-transform: translate(0pt, -1px) scale(1.2); }
 #language ul li img { margin: 0pt; float: none; }
 #language ul li.lang-active a { opacity: 1; }
-#nav-wrapper { float: left; position: relative; z-index: 9999; max-width: 570px; margin: 45px 0pt 0pt; height: auto; }
-#topmenu { float: right; margin: 6px 15px 0pt; }
-#topmenu ul.menu { margin: 0pt; padding: 0pt; }
-#topmenu ul.menu li { display: inline; float: left; padding: 0pt 1.1em 0pt 0pt; border-right: 1px dotted rgb(85, 85, 85); margin: 0pt 0pt 0pt 1.1em; text-shadow: 1px 1px 1px rgb(255, 255, 255); list-style-type: none; }
-#topmenu ul.menu li a { border-bottom: 1px dotted rgba(0, 0, 0, 0.4); color: rgb(63, 88, 104); padding-bottom: 2px; }
+#nav-wrapper { float: left; position: relative; z-index: 9999; width: 100%; margin: 5px 0 0; height: 58px; background: url('../images/nav-bg.png') repeat-x scroll 0 0 transparent; }
+#nav-wrapper ul { display: block; margin: 0; height: 53px; }
+#nav-wrapper ul li { display: block; margin: 6px 5px 0 0; float: left; border-right: 1px solid #000; }
+#nav-wrapper ul li a { color: #fff; padding: 12px 24px; float: left; }
+#nav-wrapper ul li a:hover { color: #F78C00; text-decoration: none; }
+#nav-wrapper ul li.home-btn { margin-top: 0; background: url('../images/home-btn.png') no-repeat scroll 0 0 transparent; height: 53px; width: 72px; display: block; border: none; }
+#nav-wrapper ul li.home-btn a { padding: 26px 36px;}
+#topmenu { position: relative; padding: 5px 0; height: 26px; border-top: 3px solid #F78C00; border-bottom: 1px solid #ECECEC; background-color: #FBFBFB; }
+#topmenu ul.menu { margin: 0pt; padding: 0pt; line-height: 26px; }
+#topmenu ul.menu li { display: inline; float: left; padding: 0pt 1.1em 0pt 0pt; margin: 0pt 0pt 0pt 1.1em; text-shadow: 1px 1px 1px rgb(255, 255, 255); list-style-type: none; }
+#topmenu ul.menu li a { color: rgb(63, 88, 104); padding-bottom: 2px; }
 #topmenu ul.menu li.active a, #topmenu ul.menu li a:hover { color: rgb(0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0.9); text-decoration: none; }
 #topmenu ul.menu li:last-child { border: medium none; padding-right: 0pt; }
 #footer ul.menu { padding-left: 2em; margin-bottom: 0.5em; }
@@ -128,17 +133,14 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 /* ::::: http://cdn.demo.icetheme.com/it_property/templates/it_property/css/layout.css ::::: */
 
 #accessibility { display: none; }
-.wrapper { width: 960px; margin: 0pt auto; }
-#site_wrapper { background: url('../images/bg_footer.png') repeat-x scroll center bottom transparent; }
-#topbar { clear: both; height: 50px; }
-#topbar .wrapper { position: relative; }
-#header { height: 105px; margin-left: -60px; background: url('../images/header.png') no-repeat scroll center center transparent; }
-#header .wrapper { position: relative; }
-#logo { padding: 10px 0pt 0pt 30px; float: left; }
-#logo p { margin: 0pt; }
+.wrapper { width: 990px; margin: 0pt auto; }
+#header { margin: 10px auto; }
+#header .wrapper { position: relative; height: 250px; background: none repeat scroll 0% 0% rgb(255, 255, 255); -moz-box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;box-shadow: 0 0 5px #ccc; }
+#logo { float: left; width: 200px; height: 120px; padding: 10px; }
 #logo img { float: none; margin: 0pt; }
-#content { background: url('../images/content_shadow.png') no-repeat scroll center top transparent; padding: 0pt; }
-#content .wrapper { padding: 0pt 15px; width: 930px; margin-bottom: -150px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#banner { float: left; width: 730px; height: 90px; padding: 10px; margin: 15px 0; border: 1px solid #ccc; }
+#banner img { float: none; margin: 0pt; }
+#content .wrapper { padding: 0pt 15px; width: 960px; margin-bottom: -150px; background: none repeat scroll 0% 0% rgb(255, 255, 255); -moz-box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;box-shadow: 0 0 5px #ccc; }
 #content_inside { position: relative; }
 #content_b { background: url('../images/content_b.png') no-repeat scroll center center transparent; height: 220px; }
 #left-column { float: left; }
@@ -278,38 +280,6 @@ ul.iceaccordion-numbers li.active { color: rgb(34, 34, 34); font-weight: bold; c
 .ip_smallfont { color: rgb(153, 153, 153); font-size: 10px; font-style: italic; text-align: left; }
 /* ::::: http://cdn.demo.icetheme.com/it_property/templates/it_property/html/mod_icemegamenu/css/default_icemegamenu.css ::::: */
 
-div.icemegamenu { position: relative; }
-div.icemegamenu ul#icemegamenu { display: block; list-style: none outside none; margin: 0pt; padding: 0pt; z-index: 99; position: relative; top: 0pt; left: 5px; }
-div.icemegamenu ul#icemegamenu li { display: block; list-style: none outside none; margin: 0pt 5px; padding: 0pt; position: relative; float: left; }
-div.icemegamenu ul#icemegamenu li a.iceMenuTitle, div.icemegamenu ul#icemegamenu li span.separator, div#subMenusContainer a.iceMenuTitle, div#subMenusContainer span.separator { text-decoration: none; display: block; height: 27px; margin: 10px 0; padding:5px 15px; height:20px; color: #494949; cursor: pointer; -moz-transition: color 0.3s linear 0s; }
-div.icemegamenu ul#icemegamenu li:hover a ,div.icemegamenu ul#icemegamenu li a.active{background-color:#2E77AE;background-image: linear-gradient(#5590BD, #2E77AE);border-radius:15px;color: rgb(255, 255, 255);}
-div.icemegamenu ul#icemegamenu li span.icemega_title, div#subMenusContainer span.icemega_title { font-family: 'Droid Sans',Arial,"Times New Roman",Times,serif; font-size: 1.35em; line-height: 1.2em; text-shadow: 1px 1px 1px #c9c9c9; }
-div.icemegamenu ul#icemegamenu li span.icemega_desc { display: block; font-family: Verdana,Geneva,sans-serif; font-size: 0.9em; line-height: 1em; color: rgba(255, 255, 255, 0.7) ! important; background-color: rgb(80, 161, 41); background-image: -moz-linear-gradient(rgb(100, 201, 51), rgb(80, 161, 41)); padding: 3px 9px; position: absolute; top: 0px; opacity: 0; right: 0pt; border-radius: 5px 5px 5px 5px; -moz-transition: all 0.3s linear 0s ; }
-div.icemegamenu ul#icemegamenu li span.icemega_desc:after { content: ""; border-right: 0.8em dashed transparent; border-style: solid dashed dashed; border-color: rgb(80, 161, 41) transparent transparent; border-width: 1em 0.8em 0.8em; display: inline-block; height: 0pt; line-height: 0; vertical-align: middle; width: 0pt; position: absolute; bottom: -16px; left: 7px; opacity: 0; -moz-transition: opacity 0.3s linear 0s; }
-div.icemegamenu ul#icemegamenu li:hover span.icemega_desc, div.icemegamenu ul#icemegamenu li.current span.icemega_desc, div.icemegamenu ul#icemegamenu li.active span.icemega_desc { top: -7px; }
-div.icemegamenu ul#icemegamenu li:hover span.icemega_desc, div.icemegamenu ul#icemegamenu li.current span.icemega_desc, div.icemegamenu ul#icemegamenu li:hover span.icemega_desc:after, div.icemegamenu ul#icemegamenu li.current span.icemega_desc:after, div.icemegamenu ul#icemegamenu li.active span.icemega_desc, div.icemegamenu ul#icemegamenu li.active span.icemega_desc:after { opacity: 1; }
-div#subMenusContainer li span.icemega_nosubtitle { padding-top: 3px; display: inline-block; }
-div#subMenusContainer { display: block; position: absolute; top: 0pt; left: 0pt; width: 100%; height: 0pt; overflow: visible; z-index: 1000000000; list-style: none outside none; }
-#icemegamenu ul.icesubMenu, #subMenusContainer ul.icesubMenu { background: none repeat scroll 0% 0% rgb(32, 85, 125); text-align: left; padding: 0pt; margin: 0pt; list-style-type: none; left: 0pt; border: 1px solid rgba(255, 255, 255, 0.2); }
-#icemegamenu ul.sub_level_1, #subMenusContainer ul.sub_level_1 { border-top: medium none; }
-#icemegamenu ul.icesubMenu li, #subMenusContainer ul.icesubMenu li { margin: 0pt; padding: 0pt; }
-div#subMenusContainer ul.icesubMenu li div.iceCols { overflow: hidden; width: 100%; margin: 5px 0pt 10px; }
-div#subMenusContainer ul.icesubMenu li div.iceCols li { padding: 0pt 15px; }
-div#subMenusContainer ul.icesubMenu li div.iceCols:nth-child(n+2) li { padding-left: 0pt; }
-div#subMenusContainer a.iceMenuTitle, div#subMenusContainer span.separator { height: auto; padding: 4px 0pt 8px 16px; margin: 0pt 0pt 1px; background: url('../images/point.png') no-repeat scroll 0% 45% transparent; border-bottom: 1px solid rgba(0, 0, 0, 0.25); border-right: medium none; box-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.2); }
-div#subMenusContainer span.icemega_title { font-family: 'Goudy Bookletter 1911',Arial,"Times New Roman",Times,serif; text-transform: none; font-size: 1.2em; line-height: 1.2em; letter-spacing: normal; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
-div#subMenusContainer ul.icesubMenu li div.iceCols li.parent { background: url('../images/arrow.png') no-repeat scroll 94% 45% transparent; }
-#subMenusContainer a.iceMenuTitle:hover, #subMenusContainer a.iceMenuTitle:focus, #icemegamenu a.mainMenuParentBtnFocused, #subMenusContainer a.subMenuParentBtnFocused, #icemegamenu li a.iceMenuTitle:hover, #icemegamenu li a.iceMenuTitle:hover span, #icemegamenu li a.iceMenuTitle:focus span, #icemegamenu li a.iceMenuTitle:focus { color: rgb(255, 255, 255) ! important; }
-.smOW { display: none; position: absolute; overflow: hidden; padding: 0pt 1px; margin: 0pt; }
-#icemegamenu li:hover a:focus { margin-left: 0pt; }
-.icesubMenu { position: absolute; }
-.icesubMenu .icemega_cover_module { position: relative; overflow: hidden; width: auto ! important; padding: 5px 15px 10px; }
-div#subMenusContainer .icemega_cover_module { padding-left: 0pt; padding-right: 0pt; }
-.icesubMenu .icemega_cover_module .icemega_modulewrap { position: relative; color: rgba(255, 255, 255, 0.6); }
-.icesubMenu .icemega_cover_module .icemega_modulewrap span.iceModuleTile { color: rgb(255, 255, 255); font-family: 'Quattrocento Sans',Arial,"Times New Roman",Times,serif; font-size: 1.4em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); margin-bottom: 2px; display: block; }
-.icesubMenu .icemega_cover_module .icemega_modulewrap p:last-child { margin-bottom: 0.25em; }
-.icesubMenu .icemega_cover_module .icemega_modulewrap a { color: rgb(240, 194, 55); }
-.icesubMenu .icemega_cover_module .icemega_modulewrap img { float: left; margin: 5px 10px 10px 0pt; }
 div#subMenusContainer ul.icesubMenu li div.iceCols ul { list-style: none outside none; padding: 0px; margin: 0px; }
 /* ::::: http://cdn.demo.icetheme.com/it_property/modules/mod_ice_ip_search/assets/style.css ::::: */
 
@@ -329,10 +299,6 @@ div.mod-languages a { text-decoration: none; }
 div.icemegamenu ul#icemegamenu li span.icemega_desc { background-color: rgb(80, 161, 41); background-image: -moz-linear-gradient(rgb(100, 201, 51), rgb(80, 161, 41)); }
 div.icemegamenu ul#icemegamenu li span.icemega_desc:after { border-top-color: rgb(80, 161, 41); }
 #icemegamenu ul.icesubMenu, #subMenusContainer ul.icesubMenu { background: none repeat scroll 0% 0% rgb(32, 85, 125); }
-body { background-color: rgb(221, 238, 251); background-image: url('../images/bg_001.jpg'); }
-#site_wrapper { background-image: url('../images/bg_footer_001.png'); }
-#header { background-image: url('../images/header_001.png'); }
-#content { background-image: url('../images/content_shadow_001.png'); }
 #content_b { background-image: url('../images/content_b_001.png'); }
 #content_bar { background-image: url('../images/content_bar_001.png'); }
 #footer { background-image: url('../images/footer_001.jpg'); }
