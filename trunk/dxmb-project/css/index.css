@@ -44,7 +44,7 @@ th, td, caption { padding: 0pt; }
 
 .inputbox, input[type="text"], input[type="email"], input[type="password"] { color: rgb(153, 153, 153); background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(198, 217, 233); margin: 0pt 0.25em 0pt 0pt; padding: 4px 7px; -moz-transition: all 0.4s ease-in 0s ; }
 .inputbox:hover, .inputbox:focus, input[type="text"]:hover, input[type="text"]:focus, input[type="email"]:hover, input[type="email"]:focus, input[type="password"]:hover, input[type="password"]:focus { box-shadow: 0pt 0pt 12px rgb(184, 216, 236); color: rgb(102, 102, 102); }
-select, select.inputbox { color: rgb(102, 102, 102); background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(198, 217, 233); padding: 3px 2px 3px 4px; -moz-transition: all 0.4s ease-in 0s ; outline: medium none; }
+select, select.inputbox { width: 125px; color: rgb(102, 102, 102); background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(198, 217, 233); padding: 6px 4px; -moz-transition: all 0.4s ease-in 0s ; outline: medium none; }
 select option {  }
 select:focus {  }
 div.success, p.success, div.notice, p.notice, div.error, p.error { padding: 0.6em 1em 0.6em 3.4em; box-shadow: -1px -1px 0pt rgb(255, 255, 255) inset, 1px 1px 0pt rgb(255, 255, 255) inset; border: 1px solid rgb(255, 255, 255); margin-bottom: 2em; }
@@ -90,11 +90,6 @@ p.readmore { clear: both; margin-bottom: 1em; }
 p.readmore a { display: inline-block; font-size: 1.2em; text-decoration: none; -moz-transition: padding 0.3s ease-out 0s; background-position: 95% 35%; }
 p.readmore a:hover { padding-right: 30px; background: url('../images/readmore.png') no-repeat scroll 95% 35% transparent; }
 p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
-#search { position: absolute; top: 47px; right: 0pt; }
-#search .inputbox { padding: 3px 8px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(199, 226, 242); width: 140px; -moz-transition: all 0.4s ease-out 0s ; }
-#search .inputbox:hover, #search .inputbox:focus { border-color: rgb(157, 204, 232); width: 220px; }
-#search .button { padding: 1px 6px 3px; }
-#search .button:hover {  }
 #language { float: right; padding: 8px 4px 0pt 14px; }
 #language ul { padding: 0pt; margin: 0pt; list-style-type: none; }
 #language ul li { display: inline; padding: 0pt 0pt 0pt 4px; margin: 0pt; }
@@ -104,10 +99,11 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 #language ul li.lang-active a { opacity: 1; }
 #nav-wrapper { float: left; position: relative; z-index: 9999; width: 100%; margin: 5px 0 0; height: 58px; background: url('../images/nav-bg.png') repeat-x scroll 0 0 transparent; }
 #nav-wrapper ul { display: block; margin: 0; height: 53px; }
-#nav-wrapper ul li { display: block; margin: 6px 5px 0 0; float: left; border-right: 1px solid #000; }
+#nav-wrapper ul li { display: block; margin: 6px 0 0; float: left; border-right: 1px solid #000; }
+#nav-wrapper ul li:hover { background: url('../images/nav-bg-hover.png') repeat-x scroll 0 0 transparent; }
 #nav-wrapper ul li a { color: #fff; padding: 12px 24px; float: left; }
 #nav-wrapper ul li a:hover { color: #F78C00; text-decoration: none; }
-#nav-wrapper ul li.home-btn { margin-top: 0; background: url('../images/home-btn.png') no-repeat scroll 0 0 transparent; height: 53px; width: 72px; display: block; border: none; }
+#nav-wrapper ul li.home-btn { margin: 0; background: url('../images/home-btn.png') no-repeat scroll 0 0 transparent; height: 53px; width: 72px; display: block; border: none; }
 #nav-wrapper ul li.home-btn:hover { background-position: 0 -58px; }
 #nav-wrapper ul li.home-btn a { padding: 26px 36px;}
 #topmenu { position: relative; padding: 5px 0; height: 26px; border-top: 3px solid #F78C00; border-bottom: 1px solid #ECECEC; background-color: #FBFBFB; }
@@ -116,6 +112,19 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 #topmenu ul.menu li a { color: rgb(63, 88, 104); padding-bottom: 2px; }
 #topmenu ul.menu li.active a, #topmenu ul.menu li a:hover { color: rgb(0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0.9); text-decoration: none; }
 #topmenu ul.menu li:last-child { border: medium none; padding-right: 0pt; }
+
+#search-holder { position: relative; float: left; width: 960px; height: 78px; background-color: #F5F5F5; -moz-border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; padding: 15px; }
+#search-holder div { position: relative; float: left;}
+#search-holder div.col-1 { width: 665px; margin-right: 10px; border-right: 1px solid #ccc; height: 78px; }
+#search-holder div.col-1 div { margin: 5px; }
+#search-holder div.col-1 div.sale-type-holder { width: 266px; color: #F78C00; font-size: 16px; font-weight: bold; }
+#search-holder div.col-2 { width: 284px; height: 78px; }
+#search { position: absolute; top: 47px; right: 0pt; }
+#search .inputbox { padding: 3px 8px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(199, 226, 242); width: 140px; -moz-transition: all 0.4s ease-out 0s ; }
+#search .inputbox:hover, #search .inputbox:focus { border-color: rgb(157, 204, 232); width: 220px; }
+#search .button { padding: 1px 6px 3px; }
+#search .button:hover {  }
+
 #footer ul.menu { padding-left: 2em; margin-bottom: 0.5em; }
 #footer ul.menu li { padding: 4px 0pt; }
 #footer ul.menu li a { color: rgb(85, 85, 85); text-shadow: 1px 1px 1px rgb(255, 255, 255); display: block; text-decoration: none; }
@@ -135,11 +144,11 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 
 #accessibility { display: none; }
 .wrapper { width: 990px; margin: 0pt auto; }
-#header { margin: 10px auto; }
-#header .wrapper { position: relative; height: 250px; background: none repeat scroll 0% 0% rgb(255, 255, 255); -moz-box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;box-shadow: 0 0 5px #ccc; }
-#logo { float: left; width: 200px; height: 120px; padding: 10px; }
+#header { margin: 15px auto; }
+#header .wrapper { position: relative; height: 337px; background: none repeat scroll 0% 0% rgb(255, 255, 255); -moz-box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;box-shadow: 0 0 5px #ccc; -moz-border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; }
+#logo { float: left; width: 200px; height: 110px; padding: 8px 10px; margin: 0 10px; }
 #logo img { float: none; margin: 0pt; }
-#banner { float: left; width: 730px; height: 90px; padding: 10px; margin: 15px 0; border: 1px solid #ccc; }
+#banner { float: left; width: 728px; height: 90px; margin: 15px 0; border: 2px solid #d6d6d6; }
 #banner img { float: none; margin: 0pt; }
 #content .wrapper { padding: 0pt 15px; width: 960px; margin-bottom: -150px; background: none repeat scroll 0% 0% rgb(255, 255, 255); -moz-box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;box-shadow: 0 0 5px #ccc; }
 #content_inside { position: relative; }
@@ -307,15 +316,13 @@ div.icemegamenu ul#icemegamenu li span.icemega_desc:after { border-top-color: rg
 #search .inputbox { border-color: rgb(199, 226, 242); }
 #search .inputbox:hover, #search .inputbox:focus { border-color: rgb(157, 204, 232); }
 .col-module .col-module-suffix-, .col-module .col-module-suffix-style1, .col-module .col-module-suffix-style2 { }
-.col-module-header {background-color: #F5821F;
-    background-image: -moz-linear-gradient(#F5821F, #F29243);
-    border-bottom-color: #F29243;}
+.col-module-header {background-color: #F5821F; background-image: -moz-linear-gradient(#F5821F, #F29243); border-bottom-color: #F29243;}
 .col-module .col-module-suffix-style1 .col-module-header { background-color: rgb(46, 119, 174); background-image: -moz-linear-gradient(rgb(85, 144, 189), rgb(46, 119, 174)); border-bottom-color: rgb(85, 144, 189); box-shadow: 0pt -1px 0pt rgb(187, 219, 239) inset; }
 #footer .moduletable h3.mod-title { color: rgb(44, 118, 173); border-left-color: rgb(171, 207, 233); }
-.inputbox, input[type="text"], input[type="email"], input[type="password"], textarea, select, select.inputbox { border-color: rgb(198, 217, 233); }
+.inputbox, input[type="text"], input[type="email"], input[type="password"], textarea, select, select.inputbox { border-color: #ccc; }
 .inputbox:hover, .inputbox:focus, input[type="text"]:hover, input[type="text"]:focus, input[type="email"]:hover, input[type="email"]:focus, input[type="password"]:hover, input[type="password"]:focus, textarea:hover, textarea:focus { box-shadow: 0pt 0pt 12px rgb(184, 216, 236); }
-button, input.button, a.button, input[type="submit"] { background: -moz-linear-gradient(center top , rgb(85, 144, 189), rgb(46, 119, 174)) repeat scroll 0% 0% transparent; border-color: rgb(46, 119, 174); }
-button:hover, input.button:hover, a.button:hover, input[type="submit"]:hover { background: -moz-linear-gradient(center top , rgb(101, 201, 53), rgb(81, 161, 43)) repeat scroll 0% 0% transparent; border-color: rgb(81, 161, 43); }
+button, input.button, a.button, input[type="submit"] { background: -moz-linear-gradient(center top , #005AAB, #005AAB) repeat scroll 0% 0% transparent; border-color: #005AAB; padding: 5px 10px; font-weight: bold; }
+button:hover, input.button:hover, a.button:hover, input[type="submit"]:hover { background: -moz-linear-gradient(center top , #F78C00, #F78C00) repeat scroll 0% 0% transparent; border-color: #F78C00; }
 button:focus, input.button:focus, a.button:focus, input[type="submit"]:focus { background-color: rgb(81, 161, 43); }
 .iceaccordion-paging .iceaccordion-prev, .iceaccordion-paging .iceaccordion-next { background-image: url('../images/iceaccordion_arrows_002.png'); }
 .iceaccordion h4.toggler span:hover span { background: none repeat scroll 0% 0% rgb(234, 241, 247); }
