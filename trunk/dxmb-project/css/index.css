@@ -108,6 +108,7 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 #nav-wrapper ul li a { color: #fff; padding: 12px 24px; float: left; }
 #nav-wrapper ul li a:hover { color: #F78C00; text-decoration: none; }
 #nav-wrapper ul li.home-btn { margin-top: 0; background: url('../images/home-btn.png') no-repeat scroll 0 0 transparent; height: 53px; width: 72px; display: block; border: none; }
+#nav-wrapper ul li.home-btn:hover { background-position: 0 -58px; }
 #nav-wrapper ul li.home-btn a { padding: 26px 36px;}
 #topmenu { position: relative; padding: 5px 0; height: 26px; border-top: 3px solid #F78C00; border-bottom: 1px solid #ECECEC; background-color: #FBFBFB; }
 #topmenu ul.menu { margin: 0pt; padding: 0pt; line-height: 26px; }
