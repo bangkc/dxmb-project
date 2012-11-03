@@ -154,7 +154,14 @@
                 </form>                
             </div>
             <div class="col-2">
-                
+                <div>Nhà bán <span>(2734)</span></div>
+                <div>Nhà bán <span>(2734)</span></div>
+                <div>Nhà bán <span>(2734)</span></div>
+                <div>Nhà bán <span>(2734)</span></div>
+                <div>Nhà bán <span>(2734)</span></div>
+                <div>Nhà bán <span>(2734)</span></div>
+                <div>Nhà bán <span>(2734)</span></div>
+                <div>Nhà bán <span>(2734)</span></div>
             </div>
         </div>
     </div>
