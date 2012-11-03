@@ -1,6 +1,6 @@
 <!-- Header -->
 <div id="header" class="clearfix">
-    <div class="wrapper">
+    <div class="wrapper box-shadow">
         <div id="topmenu">
             <ul class="menu">
                 <li class="item-505"><a href="dang-nhap.html">Đăng nhập</a></li>
