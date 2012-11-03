@@ -117,13 +117,13 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 #keyword-search-act { width: 39px; height: 34px; top: -5px; right: 0; padding: 0; position: absolute; border: none; background: url('../images/top-search-btn.png') no-repeat scroll 0 0 transparent; }
 #keyword-search-act:hover { background-position: 0 -41px; cursor: pointer;}
 
-#search-holder { position: relative; float: left; width: 960px; height: 78px; background-color: #F5F5F5; -moz-border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; padding: 15px; }
+#search-holder { position: relative; float: left; width: 960px; height: 85px; background-color: #F5F5F5; -moz-border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; padding: 10px 15px; }
 #search-holder div { position: relative; float: left;}
-#search-holder div.col-1 { width: 665px; margin-right: 10px; border-right: 1px solid #ccc; height: 78px; }
+#search-holder div.col-1 { width: 665px; margin-right: 10px; border-right: 1px solid #ccc; height: 85px; }
 #search-holder div.col-1 div { margin: 5px; }
 #search-holder div.col-1 div.sale-type-holder { width: 266px; color: #F78C00; font-size: 16px; font-weight: bold; cursor: pointer; }
 #search-holder div.col-1 div.sale-type-holder label:hover { cursor: pointer; }
-#search-holder div.col-2 { width: 284px; height: 78px; }
+#search-holder div.col-2 { width: 284px; height: 85px; }
 #search-holder div.col-2 div { margin: 0 5px; width: 130px; height: 20px; color: #ED1B24; }
 #search-holder div.col-2 div a { color: #ED1B24; }
 #search-holder div.col-2 div a:hover { color: #005AAB; text-decoration: none; }
@@ -154,7 +154,7 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 #accessibility { display: none; }
 .wrapper { width: 990px; margin: 0pt auto; }
 #header { margin: 15px auto; }
-#header .wrapper { position: relative; height: 334px; background: none repeat scroll 0% 0% rgb(255, 255, 255); -moz-box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;box-shadow: 0 0 5px #ccc; -moz-border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; }
+#header .wrapper { position: relative; height: 331px; background: none repeat scroll 0% 0% rgb(255, 255, 255); -moz-box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;box-shadow: 0 0 5px #ccc; -moz-border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; }
 #logo { float: left; width: 200px; height: 110px; padding: 8px 10px; margin: 0 10px; }
 #logo img { float: none; margin: 0pt; }
 #banner { float: left; width: 728px; height: 90px; margin: 15px 0; border: 2px solid #d6d6d6; }
