@@ -158,14 +158,7 @@
                 </form>                
             </div>
             <div class="col-2">
-                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
-                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
-                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
-                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
-                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
-                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
-                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
-                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
+                <img src="images/hotline.png" alt="Hotline Contact" />
             </div>
         </div>
     </div>
