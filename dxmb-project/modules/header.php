@@ -9,6 +9,10 @@
                 <li class="item-506"><a href="tin-tuc.html">Tin tức</a></li>
                 <li class="item-506"><a href="lien-he.html">Liên hệ</a></li>
             </ul>
+            <div class="keyword-search-holder">
+                <input type="text" id="keyword-search-text" name="keyword-search-text" value="Search..." onfocus="this.value=''" onblur="this.value='Search...'"/>
+                <input type="button" id="keyword-search-act" name="keyword-search-act" value="" />
+            </div>
         </div>
         <div id="logo">
             <a href="./"><img src="images/logo-dxmb.png" alt="Đất xanh miền bắc"></a>
@@ -154,14 +158,14 @@
                 </form>                
             </div>
             <div class="col-2">
-                <div>Nhà bán <span>(2734)</span></div>
-                <div>Nhà bán <span>(2734)</span></div>
-                <div>Nhà bán <span>(2734)</span></div>
-                <div>Nhà bán <span>(2734)</span></div>
-                <div>Nhà bán <span>(2734)</span></div>
-                <div>Nhà bán <span>(2734)</span></div>
-                <div>Nhà bán <span>(2734)</span></div>
-                <div>Nhà bán <span>(2734)</span></div>
+                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
+                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
+                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
+                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
+                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
+                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
+                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
+                <div><a href="#">Nhà bán <span>(2734)</span></a></div>
             </div>
         </div>
     </div>
