@@ -79,9 +79,9 @@
             <div class="col-1">
                 <form action="./" method="post" name="ip_searchmod">
                     <div class="sale-type-holder">
-                        <input type="radio" id="sale-type-1" name="sale-type" checked="checked" /> Bán
+                        <input type="radio" id="sale-type-1" name="sale-type" checked="checked" /> <label onclick="document.getElementById('sale-type-1').click();">Bán</label>
                         <span>&nbsp;&nbsp;&nbsp;</span>
-                        <input type="radio" id="sale-type-2" name="sale-type" /> Cho thuê
+                        <input type="radio" id="sale-type-2" name="sale-type" /> <label onclick="document.getElementById('sale-type-2').click();">Cho thuê</label>
                     </div>
                     <div>
                         <select id="cat" name="cat" class="inputbox">
