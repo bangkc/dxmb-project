@@ -119,6 +119,8 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 #search-holder div.col-1 div { margin: 5px; }
 #search-holder div.col-1 div.sale-type-holder { width: 266px; color: #F78C00; font-size: 16px; font-weight: bold; }
 #search-holder div.col-2 { width: 284px; height: 78px; }
+#search-holder div.col-2 div { margin: 0 5px; width: 130px; height: 20px; color: #ED1B24; }
+#search-holder div.col-2 div span { color: #A4A8AB; }
 #search { position: absolute; top: 47px; right: 0pt; }
 #search .inputbox { padding: 3px 8px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(199, 226, 242); width: 140px; -moz-transition: all 0.4s ease-out 0s ; }
 #search .inputbox:hover, #search .inputbox:focus { border-color: rgb(157, 204, 232); width: 220px; }
