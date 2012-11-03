@@ -121,7 +121,8 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 #search-holder div { position: relative; float: left;}
 #search-holder div.col-1 { width: 665px; margin-right: 10px; border-right: 1px solid #ccc; height: 78px; }
 #search-holder div.col-1 div { margin: 5px; }
-#search-holder div.col-1 div.sale-type-holder { width: 266px; color: #F78C00; font-size: 16px; font-weight: bold; }
+#search-holder div.col-1 div.sale-type-holder { width: 266px; color: #F78C00; font-size: 16px; font-weight: bold; cursor: pointer; }
+#search-holder div.col-1 div.sale-type-holder label:hover { cursor: pointer; }
 #search-holder div.col-2 { width: 284px; height: 78px; }
 #search-holder div.col-2 div { margin: 0 5px; width: 130px; height: 20px; color: #ED1B24; }
 #search-holder div.col-2 div a { color: #ED1B24; }
