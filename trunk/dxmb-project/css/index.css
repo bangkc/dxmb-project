@@ -154,7 +154,7 @@ p.readmore a:focus { box-shadow: 0pt 0pt 4px rgba(0, 0, 0, 0.25) inset; }
 #accessibility { display: none; }
 .wrapper { width: 990px; margin: 0pt auto; }
 #header { margin: 15px auto; }
-#header .wrapper { position: relative; height: 337px; background: none repeat scroll 0% 0% rgb(255, 255, 255); -moz-box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;box-shadow: 0 0 5px #ccc; -moz-border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; }
+#header .wrapper { position: relative; height: 334px; background: none repeat scroll 0% 0% rgb(255, 255, 255); -moz-box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;box-shadow: 0 0 5px #ccc; -moz-border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; }
 #logo { float: left; width: 200px; height: 110px; padding: 8px 10px; margin: 0 10px; }
 #logo img { float: none; margin: 0pt; }
 #banner { float: left; width: 728px; height: 90px; margin: 15px 0; border: 2px solid #d6d6d6; }
