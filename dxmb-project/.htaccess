@@ -1,0 +1,56 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /datxanhmienbac.vn
+
+RewriteCond %{HTTP_HOST} ^www.datxanhmienbac.vn$
+RewriteRule (.*)$ http://datxanhmienbac.vn/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule ^td_([0-9]+)_([0-9]+)_([0-9]+)/([^.]+).html$ ?frame=content&parent=$1&cat=$2&id=$3&cTitle=$4&cTitle2=$5&pTitle=$6 [L]
+#RewriteRule ^td_([0-9]+)_([0-9]+)_p([0-9]+)/([^.]+).html$ ?frame=content&parent=$1&cat=$2&page=$3&cTitle=$4&cTitle2=$5 [L]
+#RewriteRule ^td_([0-9]+)_([0-9]+)/([^.]+).html$ ?frame=content&parent=$1&cat=$2&cTitle=$3&cTitle2=$4 [L]
+#RewriteRule ^td_([0-9]+)/([^.]+).html$ ?frame=content&parent=$1&cTitle=$2 [L]
+#RewriteRule ^([^/]+)/([0-9]+)/([^/]+).html$ ?frame=search&page=$2&keyword=$3 [L]
+#RewriteRule ^([^/]+)/([^/]+).html$ ?frame=search&keyword=$2 [L]
+
+RewriteRule ^([a-z0-9_]+)/([a-z0-9_]+)/([a-z0-9_]+)$ ?frame=$1&frame2=$2&frame3=$3  [L]
+RewriteRule ^([a-z0-9_]+)/([a-z0-9_]+)$ ?frame=$1&frame2=$2  [L]
+RewriteRule ^([a-z0-9_]+)$ ?frame=$1  [L]
+
+
+# Block out any script trying to base64_encode data within the URL.
+RewriteCond %{QUERY_STRING} base64_encode[^(]*\([^)]*\) [OR]
+# Block out any script that includes a <script> tag in URL.
+RewriteCond %{QUERY_STRING} (<|%3C)([^s]*s)+cript.*(>|%3E) [NC,OR]
+# Block out any script trying to set a PHP GLOBALS variable via URL.
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+# Block out any script trying to modify a _REQUEST variable via URL.
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+
+</IfModule>
+
+ExpiresActive On
+ExpiresDefault A0
+ 
+# 1 YEAR
+<filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|swf|mp3|mp4)$">
+Header set Cache-Control "public"
+Header set Expires "Thu, 15 Apr 2010 20:00:00 GMT"
+Header unset Last-Modified
+</filesMatch>
+ 
+# 2 HOURS
+<filesMatch "\.(html|htm|xml|txt|xsl)$">
+Header set Cache-Control "max-age=7200, must-revalidate"
+</filesMatch>
+ 
+# CACHED FOREVER
+# MOD_REWRITE TO RENAME EVERY CHANGE
+<filesMatch "\.(js|css)$">
+Header set Cache-Control "public"
+Header set Expires "Thu, 15 Apr 2010 20:00:00 GMT"
+Header unset Last-Modified
+</filesMatch>
+
