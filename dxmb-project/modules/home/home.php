@@ -1,21 +1,17 @@
 <div id="icetabs" class="clearfix">
+    <div class="col-1">
         <?php include 'modules/home/slide-home.php';?>
+        <?php include 'modules/home/top-news.php';?>
+    </div>
+    <div class="col-2">
         <?php include 'modules/home/news-adv.php';?>
+    </div>
 </div>
 <!-- Content Inside -->
 <div id="content_inside">    
     <!-- Middle Column -->
     <div id="middle-column" style="width:100%;">
-        <div class="padding">
-            <div id="system-message-container"></div>
-            <div id="notice">
-                <div class="success">
-                    <div class="custom">
-                        <p>Hiện nay, với tốc độ phát triển xã hội ngày càng nhanh, nhu cầu thị trường về quảng bá Thương hiệu, sản phẩm để cạnh tranh với đối thủ ngày càng nhiều, đòi hỏi cần phải có những công ty thực sự chuyên nghiệp trong lĩnh vực tư vấn thiết kế và thi công, sản xuất.</p>
-                        <p>Chúng tôi hiểu rõ giá trị của thương hiệu và những giải pháp hiệu quả đầy sáng tạo để tạo dựng và gia tăng giá trị thương hiệu và hệ thống nhận diện thương hiệu của bạn. Vì thế chúng tôi luôn sẵn sàng để cùng trải nghiệm với cùng bạn.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="padding">            
             <div class="col-module-header">
                 <h3 class="mod-title">Top Dự án mới</h3>
             </div>
@@ -365,13 +361,6 @@
                     <span class="row-separator"></span>
                 </div>
             </div>
-            <style type="text/css">
-                #rao-vat{display:block;list-style:none;margin:0;padding:0;}
-                #rao-vat h3{font-size:14px;}
-                #rao-vat img{float:left;margin-right:10px;}
-                #rao-vat li{float:left; margin-bottom:10px;border-bottom:1px dashed #d9d9d9;}
-                .view_more{float:right;margin-top:10px;}
-            </style>
             <div class="col-module-header" style="clear:both;">
                 <h3 class="mod-title">Rao vặt</h3>
             </div>
