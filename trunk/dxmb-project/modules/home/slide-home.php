@@ -1,4 +1,4 @@
-<div id="icetabs80" class="ice-tabs-candy ice-bottom-sl-candy box-shadow">
+<div class="ice-tabs-candy ice-bottom-sl-candy box-shadow">
     <div class="ice-main-wapper">
         <div class="ice-main-item" style="display: block; left: -715px; width: 715px;">
             <img src="data/image1.jpg" title="Luxury Takes a New Meaning In Miami. Get Your Mansion!"
