@@ -77,5 +77,5 @@
                 border-width: 0.82em;
         </style>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/index.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 </head>

@@ -19,4 +19,4 @@
     <!-- Middle Column -->
 </div>
 <!-- Content Inside -->
-<?php include 'modules/right-colume.php';?>
+<?php include 'modules/right-colume/right-colume.php';?>

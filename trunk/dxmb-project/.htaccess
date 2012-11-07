@@ -31,8 +31,8 @@ RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
 
 </IfModule>
 
-ExpiresActive On
-ExpiresDefault A0
+#ExpiresActive On
+#ExpiresDefault A0
  
 # 1 YEAR
 <filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|swf|mp3|mp4)$">
