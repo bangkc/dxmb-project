@@ -3,11 +3,15 @@
     <div class="wrapper box-shadow">
         <div id="topmenu">
             <ul class="menu">
-                <li class="item-505"><a href="dang-nhap.html">Đăng nhập</a></li>
-                <li class="item-549"><a href="dang-ky.html">Đăng ký</a></li>
-                <li class="item-506"><a href="gioi-thieu.html">Giới thiệu</a></li>
-                <li class="item-506"><a href="tin-tuc.html">Tin tức</a></li>
-                <li class="item-506"><a href="lien-he.html">Liên hệ</a></li>
+                <li><a href="#">mua bán</a></li>
+                <li><a href="#">Mua bán nhà đất</a></li>
+                <li><a href="#">Dự án</a></li>
+                <li><a href="#">Chung cư</a></li>
+                <li><a href="#">Căn hộ</a></li>
+                <li><a href="#">Biệt thự</a></li>
+                <li><a href="#">Giá rẻ</a></li>
+                <li><a href="#">Bất động sản</a></li>
+                <li><a href="#">Khu đô thị</a></li>
             </ul>
             <div class="keyword-search-holder">
                 <input type="text" id="keyword-search-text" name="keyword-search-text" value="Search..." onfocus="this.value=''" onblur="this.value='Search...'"/>
@@ -24,54 +28,53 @@
         <div id="nav-wrapper">
             <ul>
                 <li class="home-btn">
-                    <a href="index.html" class="active"></a>
+                    <a href="#" class="active"></a>
                 </li>
-                <li id="iceMenu_294" class="iceMenuLiLevel_1 parent">
-                    <a href="/index.php/en/features" class="iceMenuTitle mainMenuParentBtn mainParentBtn">
+                <li class="iceMenuLiLevel_1 parent">
+                    <a href="#" class="iceMenuTitle mainMenuParentBtn mainParentBtn">
                         <span class="icemega_title">Dự án BĐS</span>
                         <span class="icemega_desc">Hot!</span>
                     </a>
 
                 </li>
-                <li id="iceMenu_480" class="iceMenuLiLevel_1 parent">
-                    <a href="/index.php/en/extensions" class="iceMenuTitle mainMenuParentBtn mainParentBtn">
+                <li class="iceMenuLiLevel_1 parent">
+                    <a href="#" class="iceMenuTitle mainMenuParentBtn mainParentBtn">
                         <span class="icemega_title">Sàn BĐS</span>
                         <span class="icemega_desc">Hot!</span>
                     </a>
 
                 </li>
-                <li id="iceMenu_647" class="iceMenuLiLevel_1">
-                    <a href="/index.php/en/iproperty" class=" iceMenuTitle">
+                <li class="iceMenuLiLevel_1">
+                    <a href="#" class=" iceMenuTitle">
                         <span class="icemega_title icemega_nosubtitle">Thương mại</span>
                     </a>
 
                 </li>
-                <li id="iceMenu_647" class="iceMenuLiLevel_1">
-                    <a href="/index.php/en/iproperty" class=" iceMenuTitle">
+                <li class="iceMenuLiLevel_1">
+                    <a href="#" class=" iceMenuTitle">
                         <span class="icemega_title icemega_nosubtitle">Cẩm nang BĐS</span>
                     </a>
 
                 </li>
-                <li id="iceMenu_647" class="iceMenuLiLevel_1">
-                    <a href="/index.php/en/iproperty" class=" iceMenuTitle">
+                <li class="iceMenuLiLevel_1">
+                    <a href="#" class=" iceMenuTitle">
                         <span class="icemega_title icemega_nosubtitle">Rao vặt</span>
                         <span class="icemega_desc">Free!</span>
+                    </a>
+                </li>
+                <li class="iceMenuLiLevel_1">
+                    <a href="#" class=" iceMenuTitle">
+                        <span class="icemega_title icemega_nosubtitle">Tin tức</span>
+                    </a>
+
+                </li>
+                <li class="iceMenuLiLevel_1">
+                    <a href="#" class=" iceMenuTitle">
+                        <span class="icemega_title icemega_nosubtitle">Hỏi đáp</span>
                     </a>
 
                 </li>
             </ul>
-            <script type="text/javascript">
-                window.addEvent('domready', function () {
-                    if (document.getElementById('icemegamenu') != null) var myMenu = new MenuMatic({
-                        id: 'icemegamenu',
-                        effect: 'slide & fade',
-                        duration: 400,
-                        physics: Fx.Transitions.Expo.easeOut,
-                        hideDelay: 1000,
-                        opacity: 100
-                    });
-                });
-            </script>
         </div>
         <!-- Main Nav -->
         <!-- Search -->

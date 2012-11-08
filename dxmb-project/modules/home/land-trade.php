@@ -4,7 +4,7 @@
 <div class="blog">
     <div class="column-1 item row-1">
         <a title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" href="pro-detail.html">
-            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/image1_1316177605.jpg">
+            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border img-middle" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/hot-projects/building_0.jpg">
         </a>
         <div class="item-properties">
             <ul>
@@ -33,7 +33,7 @@
     </div>
     <div class="column-2 item row-1">
         <a title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" href="pro-detail.html">
-            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/image1_1316177605.jpg">
+            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border img-middle" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/hot-projects/building_1.jpg">
         </a>
         <div class="item-properties">
             <ul>
@@ -62,7 +62,7 @@
     </div>
     <div class="column-1 item">
         <a title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" href="pro-detail.html">
-            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/image1_1316177605.jpg">
+            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border img-middle" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/hot-projects/building_2.jpg">
         </a>
         <div class="item-properties">
             <ul>
@@ -91,7 +91,7 @@
     </div>
     <div class="column-2 item">
         <a title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" href="pro-detail.html">
-            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/image1_1316177605.jpg">
+            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border img-middle" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/hot-projects/building_3.jpg">
         </a>
         <div class="item-properties">
             <ul>
@@ -120,7 +120,7 @@
     </div>
     <div class="column-1 item">
         <a title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" href="pro-detail.html">
-            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/image1_1316177605.jpg">
+            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border img-middle" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/hot-projects/building_4.jpg">
         </a>
         <div class="item-properties">
             <ul>
@@ -149,7 +149,7 @@
     </div>
     <div class="column-2 item">
         <a title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" href="pro-detail.html">
-            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/image1_1316177605.jpg">
+            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border img-middle" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/hot-projects/building_5.jpg">
         </a>
         <div class="item-properties">
             <ul>
@@ -178,7 +178,7 @@
     </div>
     <div class="column-1 item">
         <a title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" href="pro-detail.html">
-            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/image1_1316177605.jpg">
+            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border img-middle" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/hot-projects/building_6.jpg">
         </a>
         <div class="item-properties">
             <ul>
@@ -207,7 +207,7 @@
     </div>
     <div class="column-2 item">
         <a title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" href="pro-detail.html">
-            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/image1_1316177605.jpg">
+            <img title="Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" class="img-holder img-border img-middle" alt="Bán Nhà Phố Liền Kề Giá Chỉ Từ 3,3 Tỷ/Căn-Bán Nhà Phố Liền Kề Mặt Đường 40m Gần Đại Học Mỏ 3,3 Tỷ/Căn" src="data/hot-projects/building_8.jpg">
         </a>
         <div class="item-properties">
             <ul>
