@@ -4,23 +4,20 @@
     <meta name="generator" content="Joomla! - Open Source Content Management" />
     <title>Niềm tin việt -Bất động sản online</title>
     <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-    <script src="js/mootools-core.js" type="text/javascript"></script>
-    <!--<script src="js/core.js" type="text/javascript">
-</script>
+    <!-- Google Fonts -->
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css" />
+    <![endif]-->
+    <!--[if lte IE 9]>
+        <style type="text/css" media="screen">
+            #left-column .col-module h3.mod-title span:after {
+                border-width: 0.82em;
+        </style>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 
-<script src="js/caption.js" type="text/javascript">
-</script>
-
-<script src="js/mootools-more.js" type="text/javascript">
-</script>
-    -->
-    <script src="js/script_16.js" type="text/javascript"></script>
-    <!--<script src="js/script_16_001.js" type="text/javascript">
-</script>
-
-<script src="js/icemegamenu.js" type="text/javascript">
-</script>
-    -->
+    <script type="text/javascript" language="javascript" src="js/jquery-1.8.2.min.js"></script>
+    
     <script type="text/javascript">
         window.addEvent('load', function () {
             new JCaption('img.caption');
@@ -67,15 +64,4 @@
             return true;
         }
     </script>
-    <!-- Google Fonts -->
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" type="text/css" href="css/ie.css" />
-    <![endif]-->
-    <!--[if lte IE 9]>
-        <style type="text/css" media="screen">
-            #left-column .col-module h3.mod-title span:after {
-                border-width: 0.82em;
-        </style>
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 </head>
